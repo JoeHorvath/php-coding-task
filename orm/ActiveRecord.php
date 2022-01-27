@@ -1,8 +1,8 @@
 <?php
 
 namespace Orm;
-
-use ActiveRecordInterface;
+require_once("ActiveRecordInterface.php");
+use Orm\ActiveRecordInterface;
 
 /**
  * ActiveRecord
